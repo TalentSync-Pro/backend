@@ -21,4 +21,18 @@ public class Client extends BaseEntity{
     private String email;
     @Size(min = 10, message = "minimum 10 digits")
     private String phone;
+
+     //client info
+    private String FirstName;
+    private String LastName;
+    private int mobile;
+    private int exp;
+    private String relevent_exp;
+    private String qualification;
+    private String SkillSet;
+    private String Curr_JobTitle;
+    private String Curr_WorkLoc;
+    private String City;
+    private int zipcode;
+    File pdfFile = new File("example.pdf");
 }
